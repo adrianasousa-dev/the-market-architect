@@ -38,7 +38,10 @@ requirements.txt: Lista de bibliotecas necessárias para execução.
 
 🚀 Como Configurar e Executar
 
-Clone este repositório para a sua máquina local.
+Clone este repositório para a sua máquina local:
+
+git clone [https://github.com/adrianasousa-dev/the-market-architect.git](https://github.com/adrianasousa-dev/the-market-architect.git)
+
 
 Instale as dependências necessárias:
 
@@ -60,3 +63,5 @@ python main_architect.py
 Adriana Sousa - Product Manager & AI Solutions Architect
 
 "No ecossistema de dados, a arquitetura é o que separa o ruído do lucro."
+
+🔗 Conecte-se comigo
