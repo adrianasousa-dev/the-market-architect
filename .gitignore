@@ -1,0 +1,22 @@
+# --- Segurança (NUNCA SUBIR) ---
+.env
+*.env
+api_keys.txt
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# --- Dados e Logs (Arquivos Pesados) ---
+*.csv
+*.log
+data/
+logs/
+.ipynb_checkpoints/
+
+# --- Sistema ---
+.DS_Store
+Thumbs.db
