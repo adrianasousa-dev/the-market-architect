@@ -1,31 +1,37 @@
---- Segurança e Configurações Locais ---
+--- Segurança (NUNCA SUBIR) ---
 
-NUNCA publique o ficheiro .env, pois ele contém a sua GEMINI_API_KEY real
+Bloqueia a chave do Gemini e outros segredos
 
 .env
 *.env
-.venv/
-env/
-venv/
-ENV/
+api_keys.txt
 
---- Cache do Python ---
+--- Python ---
+
+Ignora pastas temporárias e ambientes virtuais
 
 pycache/
 *.py[cod]
 *$py.class
+.venv/
+env/
+venv/
+ENV/
 .pytest_cache/
 
---- Dados e Logs (Arquivos de Volume Massivo) ---
+--- Dados e Logs (Arquivos Massivos) ---
 
-Como o Market Architect processa +390k logs, não queremos subir bases de dados pesadas
+Essencial para o Market Architect (evita subir 390k logs)
 
 *.csv
 *.log
 data/
 logs/
+.ipynb_checkpoints/
 
 --- Sistema e IDEs ---
+
+Limpeza de ficheiros de sistema e editores (VS Code/PyCharm)
 
 .DS_Store
 Thumbs.db
